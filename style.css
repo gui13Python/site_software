@@ -46,6 +46,14 @@
     margin-right: 1%;
   }
 }
+@media (max-width: 470px) {
+  .categorias ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 .title {
   display: flex;
