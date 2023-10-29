@@ -1,6 +1,6 @@
 @media (max-width: 470px) {
   body {
-    background-color: rgb(243, 151, 217);
+    background-color: rgb(255, 255, 255);
   }
 }
 @media (max-width: 470px) {
@@ -21,6 +21,17 @@
     align-items: center;
     width: auto;
     height: auto;
+  }
+}
+@media (max-width: 470px) {
+  nav {
+    display: flex;
+    width: auto;
+    height: 190px;
+    margin: 1px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 470px) {
