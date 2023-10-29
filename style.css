@@ -1,0 +1,97 @@
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgb(71, 50, 210);
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+#nini {
+  width: 100px;
+  height: auto;
+}
+
+.links_uteis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  margin: 20%;
+  margin-top: 0%;
+  text-align: center;
+  color: darkblue;
+  text-decoration: solid;
+}
+
+.links_uteis a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.todos_progamas {
+  display: flex;
+  align-items: baseline;
+  align-content: center;
+}
+
+.categorias {
+  margin: 1%;
+
+  background-color: rgb(56, 66, 245);
+  display: table-column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+}
+
+li img {
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  margin-right: 2px;
+}
+.todos_progamas ul {
+  list-style: none;
+  display: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 249, 247);
+  align-items: center;
+  padding: 30px;
+}
+.categorias a {
+  text-decoration: none;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  color: rgb(97, 108, 108);
+}
+
+.categorias h2 {
+  display: flex;
+  justify-content: center;
+  color-scheme: rgb(25, 89, 30);
+  color: rgb(8, 9, 8);
+}
+
+a {
+  margin: 5px;
+  padding: 0%;
+}
+
+.contato {
+  background-color: aqua;
+  display: flex;
+  justify-items: end;
+}
+
+.categorias h2 {
+  color: azure;
+}
